@@ -1,0 +1,43 @@
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timer {
+  font-size: 1.5rem;
+}
+
+.contragts {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  border: 2px dotted white;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  font-size: 2.5rem;
+}
+
+.btnRestart {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 250px;
+
+  color: aliceblue;
+  background-color: green;
+
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+
+  transition: all 0.2s;
+}
+
+.btnRestart:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+
+  color: #343435;
+}
+
+.btn {
+  border: none;
+  padding: 16px 8px;
+  border-radius: 8px;
+  width: 300px;
+
+  color: aliceblue;
+  background-color: darkblue;
+
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
